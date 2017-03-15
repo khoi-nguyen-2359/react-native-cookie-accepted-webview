@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+
+include ':app'
+include ':RNAnotherWebViewManager'
+project(':RNAnotherWebViewManager').projectDir = new File(rootProject.projectDir, '../../android')

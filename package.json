@@ -1,0 +1,20 @@
+{
+	"name": "react-native-cookie-accepted-webview",
+	"description": "Call Android CookieManager.setAcceptThirdPartyCookies after creating instance of RCTWebView",
+	"author": "akhoi90@gmail.com",
+	"version": "0.0.1",
+	"nativePackage": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"babel-jest": "19.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"jest": "19.0.2",
+		"react-test-renderer": "~15.4.1"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
